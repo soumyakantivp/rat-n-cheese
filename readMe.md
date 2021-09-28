@@ -1,7 +1,7 @@
-#This is an attempt to implement Q-learning using simple Bellman equation 
+# This is an attempt to implement Q-learning using simple Bellman equation 
 in a deterministic environment. 
 
-#open index.html
+# open index.html
 step 1--> click learn
 step 2--> click solve
 
