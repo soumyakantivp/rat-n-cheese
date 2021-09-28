@@ -24,7 +24,7 @@ class State{
     //reward 1 for cheese and -1 for snake
     //Qvalue is an array [0,1,2,3] of size 4
     //1-left 2-right 3-up 4-down
-    //
+    
     constructor(reward, Qvalues, dirIndex, isBlock){
         this.reward = reward;
         this.Qvalues = Qvalues;//[left, right, up, down]
