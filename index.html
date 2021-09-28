@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href="index.css">
+    <title>Q-learning</title>
+</head>
+<body>
+    <script src="ai.js"></script>
+    <div class = "game">
+        <div class = "board">
+            
+            <div id="rat" class="player"></div>
+            <div class="grid-container">
+                <div id="1" class="grid-cheese">1</div>
+                <div id="2" class="grid-item">2</div>
+                <div id="3" class="grid-item">3</div>  
+                <div id="4" class="grid-item">4</div>
+                <div id="5" class="grid-tile">5</div>
+                <div id="6" class="grid-item">6</div>  
+                <div id="7" class="grid-item">7</div>
+                <div id="8" class="grid-snake">8</div>
+                <div id="9" class="grid-item">9</div>  
+                <div id="10" class="grid-item">10</div>
+                <div id="11" class="grid-item">11</div>
+                <div id="12" class="grid-item">12</div>  
+            </div>
+            <button id="learn" onclick="startLearning(1000)">learn</button> 
+            <button id="solve" onclick="solveAI(12)">solve</button>   
+        </div>
+        <div class="control">
+            <button id="left">left</button>
+            <button id="right">right</button>
+            <button id="up">up</button>
+            <button id="down">down</button>
+        </div>
+        <button id="manual" onclick="manual()">manual</button>
+    </div>
+</body>
+</html>
