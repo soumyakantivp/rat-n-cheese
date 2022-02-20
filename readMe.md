@@ -1,6 +1,8 @@
 # This is an attempt to implement Q-learning using simple Bellman equation 
 in a deterministic environment. 
 
+TRY: https://soumyakantivp.github.io/rat-n-cheese/
+
 # open index.html
 step 1--> click learn
 step 2--> click solve
